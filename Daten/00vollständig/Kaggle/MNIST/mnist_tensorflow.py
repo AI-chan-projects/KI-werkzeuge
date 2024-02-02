@@ -1,7 +1,9 @@
 import logging
 
+DATASET_FILE_PATH = "./source/mnist-original.mat"
+
 logging.basicConfig(
-    level=logging.DEBUG,
+    level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 logger = logging.getLogger(__name__)
@@ -28,7 +30,7 @@ logger.info("필수 라이브러리 불러옴")
 logger.info("Tensorflow version: ", tf.__version__)
 
 # 데이터셋 불러오기
-mnist = loadmat("./source/mnist-original.mat")
+mnist = loadmat(DATASET_FILE_PATH)
 mnist_data = mnist["data"].T
 mnist_label = mnist["label"][0]
 
