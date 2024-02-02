@@ -1,0 +1,27 @@
+2024-02-02 13:04:02,892 - __main__ - INFO - 스크립트 시작
+2024-02-02 13:04:02,893 - __main__ - INFO - 필수 라이브러리 불러오는 중...
+2024-02-02 13:04:06,563 - __main__ - INFO - 필수 라이브러리 불러옴
+2024-02-02 13:04:06,601 - __main__ - INFO - Dataset imported
+2024-02-02 13:04:06,608 - __main__ - INFO - Ready for Split data for training
+2024-02-02 13:04:06,651 - __main__ - INFO - Data for training Splited
+2024-02-02 13:04:06,651 - __main__ - INFO - Normalization Start
+2024-02-02 13:04:06,779 - __main__ - INFO - Normalization End
+2024-02-02 13:04:06,780 - __main__ - INFO - Dimension add Start
+2024-02-02 13:04:06,868 - __main__ - INFO - Dimension add End
+2024-02-02 13:04:06,868 - __main__ - INFO - Make batch Start
+2024-02-02 13:04:06,895 - __main__ - INFO - Make batch End
+2024-02-02 13:04:06,896 - __main__ - INFO - Initializing Model Class
+2024-02-02 13:04:06,896 - __main__ - INFO - Model Class Initialized
+2024-02-02 13:04:06,896 - __main__ - INFO - Creating Model instance
+2024-02-02 13:04:06,907 - __main__ - INFO - Model instance created
+2024-02-02 13:04:06,908 - __main__ - INFO - loss function & optimizer setting
+2024-02-02 13:04:06,908 - __main__ - INFO - loss function & optimizer setting done
+2024-02-02 13:04:06,908 - __main__ - INFO - metrics setting
+2024-02-02 13:04:06,922 - __main__ - INFO - metrics setting done
+2024-02-02 13:04:06,923 - __main__ - INFO - model train function setting start
+2024-02-02 13:04:06,923 - __main__ - INFO - model train function setting done
+2024-02-02 13:04:06,923 - __main__ - INFO - model test function setting start
+2024-02-02 13:04:06,924 - __main__ - INFO - model test function setting done
+2024-02-02 13:04:06,924 - __main__ - INFO - model main start, Epoch : 5
+2024-02-02 13:06:31,295 - __main__ - INFO - model main end
+2024-02-02 13:06:31,296 - __main__ - INFO - 스크립트 종료
